@@ -6,12 +6,12 @@ export default function App() {
   const dataList = [
     {
       name: "taro",
-      age: 21
+      age: 21,
     },
     {
       name: "ziro",
-      age: 32
-    }
+      age: 32,
+    },
   ];
   return (
     <div className="App">
@@ -25,6 +25,7 @@ export default function App() {
           <span>{data.age}</span>
         </div>
       ))}
+      test
     </div>
   );
 }
